@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Login</title>
+<link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    <div id="container" style="margin:7vw;">
+         <h1 class="main">Login Account</h1>
+         <form onsubmit="return false;">
+            <label for="uname">Username : </label>
+             <input type="text" placeholder="Enter Username" name="username" class="input" id="uname"><br>
+             <p id="uname_error"></p>
+             <label for="pass">Password : </label>
+             <input type="password" placeholder="Enter Password" name="password" class="input" id="pass"><br>
+             <p id="pass_error"></p>
+             <button type="submit" id="login-btn">Submit</button><br>
+             Create New Account<a href="./Signup.html">Sign Up</a>
+         </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

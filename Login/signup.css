@@ -1,0 +1,58 @@
+body{
+    background-image: linear-gradient(#ff5f6d,#ffc371);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100vw;
+    height:100vh;
+    text-align: center;
+    overflow:hidden;
+}
+
+p{
+    color:red;
+    margin:0;
+    font-size: 15px;
+    position: absolute;
+    left: 44vw;
+    
+}
+
+#container{
+    margin:4vw;
+    display:inline-block;
+    border:none;
+    padding:3vw;
+    background-color: white;
+    font-size: 20px;
+    margin-bottom: 10vh;
+    box-shadow: 0 0 25px black;
+    border-radius: 20px;
+}
+#container form{
+    margin-top:5vh;
+}
+#container form label,#container form input,#container form button, #container form a{
+    margin:3vh;
+}
+#container form input{
+    padding:15px;
+    width:20vw;
+    border:1px solid #ff5f6d;
+} 
+#container form button{
+    padding:15px; 
+    width:30vw; 
+    border:1px solid #ff5f6d;
+    border-radius: 30px;
+    margin-bottom:5vh;
+    color: white;
+    background-image: linear-gradient(#ff5f6d,#ffc371);
+}
+#container form input:focus-visible{
+    padding:15px;
+    width:20vw;
+    border:1px solid #ff5f6d;
+} 
+#container form a{
+    text-decoration: underline;
+}
